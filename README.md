@@ -5,7 +5,7 @@
 ### 关于ssr
 
 > 服务器端渲染的 **Vue.js** 应用程序，是使 **vue** 应用既可以在客户端（浏览器）执行，也可以在服务器端执行，我们称之为“同构”或“通用”技术。之所以能够实现同构，是因为在客户端和服务端都创建了 **vue** 应用程序，并都用 **webpack** 进行打包，生成了**server bundle**和**client manifest**两个**json**文件。**server bundle**用于服务器渲染，**client manifest**是一个客户端的静态标记，服务器渲染好**html**页面片段后，会发送给客户端，然后混合客户端静态标记，这样应用就具有**vue**应用的特性。
-![流程图](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9ko1nf2yj30zz0il0xb.jpg)
+![流程图](https://github.com/riyueweiyi/cnode/raw/master/ssr.jpg)
 
 ### 安装项目依赖
 ```
